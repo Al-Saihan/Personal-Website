@@ -71,6 +71,8 @@ footer p {
 
 /* NavBar Background */
 .topnav {
+  position: sticky;
+  top: 0;
   background-color: #1b1a55;
   overflow: hidden;
   text-align: center;
