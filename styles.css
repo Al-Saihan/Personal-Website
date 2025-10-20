@@ -58,10 +58,6 @@ p {
 .topnav {
   background-color: #1b1a55;
   overflow: hidden;
-}
-
-/* Style the anchor links [Texts] inside the navigation bar */
-.topnav {
   text-align: center;
 }
 
