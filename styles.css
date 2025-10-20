@@ -26,19 +26,19 @@ body p {
   margin: 0 auto 30px auto;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background-color: #535c91;
-  margin: 10px 0;
-}
-
 footer {
   text-align: center;
   color: #535c91;
   font-size: 14px;
+  padding: 10px 0;
+  border-top: 1px solid #535c91;
+  margin-top: 40px;
+  margin-bottom: 0%;
 }
 
+footer p {
+  margin-bottom: 0%;
+}
 
 .intro {
   text-align: center;
