@@ -16,15 +16,15 @@
   </head>
 
   <body>
+    <div id="home"></div>
     <div class="topnav">
       <a class="active" href="#home">Home</a>
-      <a href="#Experience">Experience</a>
+      <a href="#experience">Experience</a>
       <a href="#about">About</a>
-      <a href="#Contact">Contact</a>
+      <a href="#contact">Contact</a>
     </div>
-
     <div>
-      <div class="profile-pic" id="home">
+      <div class="profile-pic">
         <img
           src="https://media.tenor.com/d2j7YdyhtmsAAAAj/shikanoko-dance-shikanoko-meme.gif"
           alt="Shikanoko dance meme"
@@ -33,7 +33,7 @@
       </div>
 
       <section class="intro">
-        <h1>Hey! I'm Saihan!</h1>
+        <h1 >Hey! I'm Saihan!</h1>
         <p>I'm a Computer Science & Engineering student at BRAC University.</p>
         <p>
           I solve algorithmic problems, build web applications, and explore
@@ -44,11 +44,12 @@
           Currently focused on web development, performance, and clean, reusable
           code. Open to collaboration and new opportunities.
         </p>
-        <p><a href="#Contact" class="btn">Get in touch</a></p>
+        <p><a href="#contact" class="btn">Get in touch</a></p>
       </section>
     </div>
+    <hr id="experience" />
 
-    <section class="intro">
+    <section class="intro" id ="experience">
       <h2>Experience</h2>
 
       <p>
@@ -57,9 +58,8 @@
         foundation, problem-solving abilities, and collaboration skills across
         both academic and practical environments.
       </p>
-      <hr />
       <div class="exp">
-      <article class="experience-flex">
+      <article class="card experience-flex">
         <div class="exp-title">
           <h3>Peer Mentoring & Informal Teaching</h3>
         </div>
@@ -74,7 +74,7 @@
         </div>
       </article>
 
-      <article class="experience-flex" style="flex-direction: row-reverse;">
+      <article class="card experience-flex" style="flex-direction: row-reverse;">
         <div class="exp-title">
           <h3>Mathematics Club Member</h3>
         </div>
@@ -86,7 +86,7 @@
         </div>
       </article>
 
-      <article class="experience-flex">
+      <article class="card experience-flex">
         <div class="exp-title">
           <h3>Group Coding Competitions</h3>
         </div>
@@ -103,7 +103,7 @@
 
 
       <article>
-        <h3>Tech Stack</h3>
+        <h3 id="tech-stack">Tech Stack</h3>
         <ul>
           <li><strong>Languages:</strong> Python, C, JavaScript, PHP</li>
           <li><strong>Web:</strong> HTML, CSS</li>
@@ -122,11 +122,11 @@
     </section>
 
     <section class="intro">
-      <h2>About</h2>
+      <h2 id="about">About</h2>
     </section>
 
     <section class="intro">
-      <h2>Contact</h2>
+      <h2 id="contact">Contact</h2>
     </section>
   </body>
 
