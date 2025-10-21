@@ -19,11 +19,47 @@ body h1 {
   margin-bottom: 20px;
 }
 
+body h2 {
+  color: #535c91;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
 body p {
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto 30px auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #535c91;
+  margin: 40px 0;
+}
+
+.experience-flex {
+  display: flex;
+  flex-direction: row-rev;
+  gap: 100px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.exp-title {
+  color: #535c91;
+  font-size: 24px;
+  place-content: center;
+  max-width: 300px;
+}
+
+.exp-details {
+  color: #9290c3;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  max-width: 600px;
 }
 
 footer {
@@ -50,7 +86,6 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-
 
 .btn {
   background-color: #535c91;
