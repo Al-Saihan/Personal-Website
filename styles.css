@@ -6,11 +6,12 @@
 #9290C3 - Secondary Text Color */
 
 body {
-  background-color: #070f2b;
+  background: linear-gradient(135deg, #070f2b 0%, #1b1a55 100%);
   color: #9290c3;
   font-family: "Roboto", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  text-shadow: 1px 1px 4px #00000066;
 }
 
 body h1 {
@@ -41,7 +42,7 @@ hr {
 
 .experience-flex {
   display: flex;
-  flex-direction: row-rev;
+  flex-direction: row;
   gap: 100px;
   margin-top: 50px;
   justify-content: center;
@@ -58,7 +59,7 @@ hr {
   color: #9290c3;
   font-size: 18px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: justify;
   max-width: 600px;
 }
 
@@ -80,6 +81,14 @@ footer p {
   text-align: center;
   padding: 5px 20px;
 }
+
+.exp {
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
 
 .profile-pic {
   display: flex;
