@@ -119,6 +119,7 @@ hr {
   margin: 0 auto;
   max-width: 800px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 12px 16px;
   justify-content: center;
@@ -130,7 +131,7 @@ hr {
   color: #bebde4;
   padding: 8px 12px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid rgba(148, 144, 195, 0.12);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   transition: all 0.15s ease;
@@ -138,6 +139,12 @@ hr {
   align-items: center;
   gap: 8px;
   white-space: nowrap;
+}
+
+.tech-list strong {
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(146,144,195,0.6), 0 0 12px rgba(190,189,228,0.12);
 }
 
 .tech-list li:hover {
