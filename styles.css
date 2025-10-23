@@ -268,8 +268,8 @@ hr {
   filter: brightness(0) invert(1);
 }
 
-section[id] {
-  scroll-margin-top: calc(80px + 12px); /* +12px breathing room */
+div[id] {
+  scroll-margin-top: 60px;
 }
 
 /* ? NAV-BAR - W3 School: https://www.w3schools.com/howto/howto_js_topnav.asp */
