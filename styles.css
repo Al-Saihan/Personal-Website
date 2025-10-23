@@ -71,10 +71,13 @@ hr {
 }
 
 @keyframes sparkle {
-  from { text-shadow: 0 0 5px #a299ff, 0 0 10px #b7aaff; }
-  to { text-shadow: 0 0 20px #cbbcff, 0 0 40px #a89fff; }
+  from {
+    text-shadow: 0 0 5px #a299ff, 0 0 10px #b7aaff;
+  }
+  to {
+    text-shadow: 0 0 20px #cbbcff, 0 0 40px #a89fff;
+  }
 }
-
 
 .experience-flex {
   display: flex;
@@ -144,14 +147,13 @@ hr {
 .tech-list strong {
   font-weight: bold;
   color: #ffffff;
-  text-shadow: 0 0 6px rgba(146,144,195,0.6), 0 0 12px rgba(190,189,228,0.12);
+  text-shadow: 0 0 6px rgba(146, 144, 195, 0.6),
+    0 0 12px rgba(190, 189, 228, 0.12);
 }
 
 .tech-list li:hover {
-  transform: translateY(-4px);
   background: rgba(146, 144, 195, 0.12);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-  cursor: default;
+  box-shadow: 0 6px 18px rgba(43, 36, 100, 0.489);
 }
 
 @media (max-width: 480px) {
@@ -201,6 +203,58 @@ footer p {
 .btn:hover {
   background-color: #9290c3;
 }
+
+.info-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #1b1a55;
+  color: #9290c3;
+  font-size: 18px;
+  border: 1px solid #535c91;
+  border-radius: 10px;
+}
+
+.info-table th,
+.info-table td {
+  border: 1px solid #535c91;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.info-table th {
+  color: #bebde4;
+  font-weight: 600;
+}
+
+.info-table td a {
+  color: #9290c3;
+  text-decoration: none;
+}
+
+.info-table td a:hover {
+  color: #bebde4;
+}
+
+.info-table th[colspan="2"] {
+  background-color: #0b0b38;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-table tr:nth-child(even) {
+  background-color: #24225d;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
 
 /* ? NAV-BAR - W3 School: https://www.w3schools.com/howto/howto_js_topnav.asp */
 
