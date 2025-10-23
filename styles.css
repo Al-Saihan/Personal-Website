@@ -166,7 +166,7 @@ hr {
   }
 }
 
-footer {
+.footer {
   text-align: center;
   color: #535c91;
   font-size: 14px;
@@ -176,8 +176,21 @@ footer {
   margin-bottom: 0%;
 }
 
-footer p {
+.footer p {
   margin-bottom: 0%;
+}
+
+.footer-link {
+  color: #dbddea;
+  text-decoration: none;
+  font-size: 14px;
+  text-shadow: 0 0 4px rgba(155, 158, 176, 0.6);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #bebde4;
+  text-shadow: 0 0 8px rgba(190, 189, 228, 0.8);
 }
 
 .intro {
@@ -255,6 +268,9 @@ footer p {
   filter: brightness(0) invert(1);
 }
 
+section[id] {
+  scroll-margin-top: calc(80px + 12px); /* +12px breathing room */
+}
 
 /* ? NAV-BAR - W3 School: https://www.w3schools.com/howto/howto_js_topnav.asp */
 
