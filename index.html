@@ -62,7 +62,6 @@
     <hr />
 
     <div class="intro" id="experience">
-      class="intro" id="experience" >
       <h2>Experience</h2>
 
       <p>
@@ -235,9 +234,16 @@
       <a href="https://discord.gg/PdQawTfZ6k" class="footer-link">
         Click to Join The CSE391 Discord Server!
       </a>
+
+      <p id="lastModified"></p>
     </div>
 
     <script type="text/javascript">
+      // ------------ LAST MODIFIED 
+      document.getElementById("lastModified").textContent =
+        "This Page Was Last Modified On: " + document.lastModified;
+
+      // ------------ NAVBAR ACTIVE LINK
       (function () {
         var sections = document.querySelectorAll("div[id]");
         var navLinks = document.querySelectorAll(".topnav a");
