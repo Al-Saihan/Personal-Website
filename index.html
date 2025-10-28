@@ -236,12 +236,17 @@
       </a>
 
       <p id="lastModified"></p>
+      <p id="location"></p>
     </div>
 
     <script type="text/javascript">
       // ------------ LAST MODIFIED 
       document.getElementById("lastModified").textContent =
-        "This Page Was Last Modified On: " + document.lastModified;
+      "This Page Was Last Modified On: " + document.lastModified;
+      
+      // ------------ PAGE LOCATION
+      document.getElementById("location").textContent = "You are currently viewing: " + window.location.pathname;
+
 
       // ------------ NAVBAR ACTIVE LINK
       (function () {
